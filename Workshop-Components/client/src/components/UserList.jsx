@@ -7,8 +7,10 @@ const UserList = () => {
             <Search />
 
             <UserListTable />
-        </section>
 
+            {/* <!-- New user button  --> */}
+            <button className="btn-add btn">Add new user</button>
+        </section>
     );
 }
 
