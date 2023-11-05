@@ -1,3 +1,5 @@
+import { formatDate } from "../utils/dataUtils";
+
 const UserListItem = (
   {
     firstName,
@@ -19,7 +21,7 @@ const UserListItem = (
         <td>{lastName}</td>
         <td>{email}</td>
         <td>{phoneNumber}</td>
-        <td>{createdAt}</td>
+        <td>{formatDate(createdAt)}</td>
         
         {/* June 28, 2022 */}
 
